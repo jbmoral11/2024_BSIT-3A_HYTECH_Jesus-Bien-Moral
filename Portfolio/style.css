@@ -31,6 +31,17 @@ section {
   padding: 10rem 9% 2rem;
 }
 
+/* Scrollbar Design */
+
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+  width: 50px;
+}
+
 /* Header Code Design */
 
 .header {
@@ -158,4 +169,93 @@ span {
 
 .btn:hover {
   box-shadow: 0 0 1.6rem var(--main-color);
+}
+
+/* About Code Design */
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background: var(--snd-bg-color);
+}
+
+.about-img img {
+  width: 25vw;
+  border: 3px solid #04d9ff;
+  border-radius: 10px;
+}
+
+.about-img img:hover {
+  box-shadow: 0 0 1.6rem #04d9ff;
+  transition: 0.5s ease;
+}
+
+.heading {
+  text-align: center;
+  font-size: 4.5rem;
+}
+
+.about-content {
+  padding: 0 4rem;
+}
+
+.about-content h2 {
+  text-align: left;
+  line-height: 1.2;
+}
+
+.about-content h3 {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.about-content p {
+  font-size: 1.6rem;
+  margin: 2rem 0 3rem;
+}
+
+/* Services Code Design */
+
+.services h2 {
+  margin-bottom: 5rem;
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding-bottom: 4rem;
+}
+
+.services-container .services-box {
+  flex: 1 1 30rem;
+  background: var(--snd-bg-color);
+  padding: 3rem 2rem 4rem;
+  border-radius: 2rem;
+  text-align: center;
+  border: 0.2rem solid var(--bg-color);
+  transition: 0.4s ease;
+}
+
+.services-container .services-box:hover {
+  border-color: var(--main-color);
+  transform: scale(1.02);
+}
+
+.services-box i {
+  font-size: 7rem;
+  color: var(--main-color);
+}
+
+.services-box h3 {
+  font-size: 2.6rem;
+}
+
+.services-box p {
+  font-size: 1.6rem;
+  margin: 1rem 0 3rem;
 }
