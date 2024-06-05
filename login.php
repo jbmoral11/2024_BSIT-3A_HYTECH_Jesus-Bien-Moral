@@ -55,11 +55,9 @@ if (isset($_POST['submit'])) {
     <div class="container d-flex justify-content-center align-items-center min-vh-100">
         <div class="row border rounded-5 p-3 bg-white shadow box-area">
             <div class="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box" style="background: #103cbe;">
-                <div class="featured-image mb-3">
-                    <img src="images/1.png" class="img-fluid" style="width: 250px;">
-                </div>
-                <p class="text-white fs-2" style="font-family: 'Courier New', Courier, monospace; font-weight: 600;">Be Verified</p>
-                <small class="text-white text-wrap text-center" style="width: 17rem;font-family: 'Courier New', Courier, monospace;">Join experienced Designers on this platform.</small>
+                
+                <p class="text-white fs-2" style="font-family: 'Courier New', Courier, monospace; font-weight: 600;">Cyberware</p>
+                <small class="text-white text-wrap text-center" style="width: 17rem;font-family: 'Courier New', Courier, monospace;">Welcome to Cyberware Computer Products</small>
             </div>
             <div class="col-md-6 right-box">
                 <div class="row align-items-center">
@@ -94,9 +92,7 @@ if (isset($_POST['submit'])) {
                         <div class="input-group mb-3">
                             <button class="btn btn-lg btn-primary w-100 fs-6" name="submit">Login</button>
                         </div>
-                        <div class="input-group mb-3">
-                            <button class="btn btn-lg btn-light w-100 fs-6"><img src="images/google.png" style="width:20px" class="me-2"><small>Sign In with Google</small></button>
-                        </div>
+                       
                         <div class="row">
                             <small>Don't have account? <a href="register.php">Sign Up</a></small>
                         </div>

@@ -14,7 +14,7 @@ if (isset($_SESSION['admin_name'])) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
-  <title>hytech</title>
+  <title>Cyberware</title>
 
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -30,7 +30,7 @@ if (isset($_SESSION['admin_name'])) {
   }
 
   body {
-    background: #eee;
+    background: #fff;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #000;
@@ -78,6 +78,14 @@ if (isset($_SESSION['admin_name'])) {
   h2 {
     margin-top: -20px;
   }
+  .card-body{
+    -webkit-box-shadow: 0px 19px 22px -18px rgba(46,74,117,1);
+-moz-box-shadow: 0px 19px 22px -18px rgba(46,74,117,1);
+box-shadow: 0px 19px 22px -18px rgba(46,74,117,1);
+  }
+  .card-body:hover{
+    background-image:130%;
+  }
 </style>
 
 <body>
@@ -99,7 +107,7 @@ if (isset($_SESSION['admin_name'])) {
         <img src="Image/promotion 4.svg" class="img-responsive" alt="processor" style="width:100%;">
       </div>
       <div class="swiper-slide">
-        <img src="Image/promotion 1.svg" class="img-responsive" alt="processor" style="width:100%;">
+        <img src="Image/promotional 6.webp" class="img-responsive" alt="processor" style="width:100%;">
       </div>
 
     </div>
@@ -146,7 +154,7 @@ if (isset($_SESSION['admin_name'])) {
                   <div class="card-title">
                     <a href="product_page.php?category=Graphics Card">
                       <img src="Image/graphics card.svg" class="img-responsive" alt="graphic_card">
-                      <h3>Graphics Card</h3>
+                      <h4>Graphics Card</h4>
                     </a>
                   </div>
                 </div>
@@ -264,7 +272,7 @@ if (isset($_SESSION['admin_name'])) {
                 </div>
               </div>
             </div>
-
+ 
 
             <!-- Swiper JS -->
             <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

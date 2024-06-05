@@ -102,9 +102,7 @@ if (isset($_POST['submit'])) {
                         <div class="input-group mb-3">
                             <button class="btn btn-lg btn-primary w-100 fs-6" name="submit">Sign Up</button>
                         </div>
-                        <div class="input-group mb-3">
-                            <button class="btn btn-lg btn-light w-100 fs-6"><img src="images/google.png" style="width:20px" class="me-2"><small>Sign Up with Google</small></button>
-                        </div>
+                        
                         <div class="row">
                             <small>Already have account? <a href="login.php">Log in</a></small>
                         </div>
